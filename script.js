@@ -1,34 +1,6 @@
 /*
-M6-UF1.Pt2_Guió
 
-Creo la taula disponibles
-Creo la taula nodisponibles
-
-for (cada element del carreto) {
-    creo un element <tr>
-    for (cada camp del producte){
-        creo un element <td>
-        if (he arribat a l'últim camp){
-            calculo l'import multiplicant posició 2 * posició 3
-            if (l'últim camp és true){sumo l'import al total}
-        }else {
-            el valor a afegir és el del camp 
-        }
-        Afegir el valor del camp a <td>
-        Afegir <td> a <tr>
-        if (l'últim camp és true){
-            Comprovo si la capçalera de la taula disponibles existeix
-            si no la creo
-            afegeixo el <tr> creat a la taula disponibles
-        }else{
-            Comprovo si la capçalera de la taula nodisponibles existeix
-            si no la creo
-            afegeixo el <tr> creat a la taula nodisponibles
-    }
-}
-Creo la fila per l'import total
-l'afegeixo a la taula disponibles   
-
+Author Azumay404
 
 */
 window.onload = function() {
